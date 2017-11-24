@@ -88,7 +88,7 @@ window.Docs = {
 
 		// If shebang has an operation nickname in it..
 		// e.g. /docs/#!/words/get_search
-		var fragments = $.param.fragment().split('/');
+		/*var fragments = $.param.fragment().split('/');
 		fragments.shift(); // get rid of the bang
 
 		switch (fragments.length) {
@@ -114,7 +114,7 @@ window.Docs = {
 				Docs.expandOperation($('#'+li_content_dom_id));
 				$('#'+li_dom_id).slideto({highlight: false});
 				break;
-		}
+		}*/
 
 	},
 
