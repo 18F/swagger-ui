@@ -9,7 +9,7 @@ To use it on the FEC API project locally and be able to utilize any changes you 
 1. Clone this repo and `cd` into its top-level directory (`swagger-ui` by default).
 2. Run `npm link` to create an npm-managed symlink on your local development machine.
 3. Now `cd` into the top-level [openFEC API](https://github.com/18F/openFEC) directory you already have cloned (if you don't have that project cloned, please follow the steps in its README before continuing here).
-4. Run `npm link swagger-ui` to locally install this fork of Swagger UI.  If you changed the name of the repo when you cloned it in step one, please use that name instead.  For example, if you cloned this repo as `fec-swagger-ui`, then you would need to run `npm link fec-swagger-ui`.
+4. Run `npm link swagger-ui` to locally install this fork of Swagger UI.  If you changed the name of the repo when you cloned it in step one, please use that name instead.  For example, if you cloned this repo as `fec-swagger-ui`, then you would need to run `npm link ../fec-swagger-ui`.
 
 Finally, you must build all of your changes before merging and deploying.
 
